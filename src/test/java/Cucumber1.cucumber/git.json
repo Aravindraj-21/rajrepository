@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-24T10:31:56.223Z",
+        "line": 4,
+        "name": "Add two numbers",
+        "description": "",
+        "id": "test-calculator;add-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1487300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter 23",
+            "match": {
+              "arguments": [
+                {
+                  "val": "23",
+                  "offset": 8
+                }
+              ],
+              "location": "calcstepdefinition.I_enter_50(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 113400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I press add",
+            "match": {
+              "arguments": [
+                {
+                  "val": "add",
+                  "offset": 8
+                }
+              ],
+              "location": "calcstepdefinition.I_press_add(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter 23 in calc",
+            "match": {
+              "arguments": [
+                {
+                  "val": "23",
+                  "offset": 8
+                }
+              ],
+              "location": "calcstepdefinition.I_enter(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I press equal in calc",
+            "match": {
+              "arguments": [
+                {
+                  "val": "equal",
+                  "offset": 8
+                }
+              ],
+              "location": "calcstepdefinition.I_press_equal(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Answer 46 should be shown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "46",
+                  "offset": 7
+                }
+              ],
+              "location": "calcstepdefinition.Answer_100_should_be_shown(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Calculator",
+    "description": "  This file shows calculator functionality",
+    "id": "test-calculator",
+    "keyword": "Feature",
+    "uri": "classpath:Cucumber1/cucumber/calculator.feature",
+    "tags": []
+  }
+]
